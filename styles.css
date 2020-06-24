@@ -12,22 +12,88 @@ html, body{
     6. border radius */
 
 /* عند الحاجه w3schools قم بالاستعانه بموقع  */
+body{
+background-color: black;
 
+}
+
+.flexer{
+    display: flex;
+    height: 100%;
+}
 .sidebar{
     /* pxالعرض هنا يجب ان يكون 120 */
+    width: 130px;
+    background-color: rgb(68, 63, 63);
+    border-radius: 20px;
+    margin: 10px;
+    margin-right: 5px;
+    padding-top: 5px;
+}
+
+.sidebar:hover{
+    background-color: rgb(43, 41, 41);
 }
 
 .header{
     /* pxالطول هنا يجب ان يكون 80 */
+    height: 20%;
+    background-color: #edf2f4;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+.header:hover{
+    background-color: #7f8385;
+  
 }
 
 .main{
+    background-color:  #0961a8;
+    height: 62%;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
 
 }
 
+.main:hover{
+    background-color: #11398d ;
+    
+}
+
 a{
-    color: darkgray;
+    color: rgb(255, 253, 253);
     /* اجعل شكل اللنك من غير خط اسفل الكلام */
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover{
+
+    font-size: 35px;
+    color: rgb(192, 171, 171);
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 15px;
+    font-size: 30px;
+}
+
+
+
+h2{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+p{
+    text-align: center;
 }
 
 /* !بــونص */
